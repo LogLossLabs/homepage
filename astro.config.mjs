@@ -6,5 +6,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   // site: "https://loglosslabs.com",
   site: "https://loglosslabs.github.io",
+  base: "/homepage",
   integrations: [tailwind()],
 });
